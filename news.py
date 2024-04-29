@@ -5,7 +5,7 @@ from jinja2 import Template
 # Replace with your actual API token
 api_token = "o8BhFNrmfsrQVKFnadzlnQ5sSfraWhOIw9W3diAD"
 
-published_on = "2024-04-26"
+published_on = "2024-04-27"
 
 def get_news_data(url):
   response = requests.get(url)

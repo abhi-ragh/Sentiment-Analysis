@@ -67,7 +67,7 @@ ax2 = ax1.twinx()
 
 ax1.plot(closing_prices, label='Closing Price', color='blue')
 ax1.plot(opening_prices, label='Opening Price', color='green')
-ax1.plot(multiplied_list, label='Sentiment Score', color='red', linestyle='--')
+#ax1.plot(multiplied_list, label='Sentiment Score', color='red', linestyle='--')
 
 plt.title(f'Sentiment Score, Opening & Closing Price for TSLA on {published_on}')
 plt.xticks(rotation=45)
